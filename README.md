@@ -179,4 +179,9 @@ For the rest of the features with missing values, as these features has maximum 
 - HasBsmt:  1 if TotalBsmtSF > 0 else 0
 - HasFireplace:  1 if Fireplaces > 0 else 0
 
+### Numerical variables
+
+- Year features: We convert all the years in year features to number of years.
+- soandre: New column that gives the amount of years that was remove the add and the year that actially was sold.
+
 
