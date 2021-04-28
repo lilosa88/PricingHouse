@@ -151,3 +151,7 @@ Next parameters that has missing values are the ones related to the Garage, i.e.
 
 - GarageType, GarageFinish, GarageQual and GarageCond: We change the missing values for No Garage.
 - GarageYrBlt: We change the missing value with 0 because never was built a garage.
+
+The following missing values are found in the parameters that are relate to the bassement. Again we can check if these missing values are not related to the lack of bassement in the house.
+
+- BsmtQual, BsmtCond, BsmtExposure, BsmtFinType1, BsmtFinType2: Althougth we only have 78 houses without basement, if we change the NaN values by No Basement in all the Basement parameters that has missing values, we will only have maximum 4 houses that could be missplaced which will not affect much the model.
