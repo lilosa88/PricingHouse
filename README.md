@@ -163,8 +163,20 @@ The other missing values correspond to the feature MasVnrType and MasVnrArea. Fo
 
 For the rest of the features with missing values, as these features has maximum 4 missing values out of 2919 we will fill the data with the corresponding media value in each case for the cases where the feature is float64. For the categorical variables we fill it with the mode.  
 
+# Feature engineering
 
+### We create new columns:
 
+- TotalSF: New column that contains the total square feet that consider the basement, 1st floor and 2nd floor
+- Total_Bathrooms: New column that contains the total square feet of all the bathrooms in the house
+- Total_porch_sf: New column that contains the total square feet that of the porch 
 
+### Simplified information of another features:
+
+- HasPool:  1 if PoolArea > 0 else 0
+- Has2ndFloor:  1 if 2ndFlrSF > 0 else 0
+- HasGarage:  1 if GarageArea > 0 else 0
+- HasBsmt:  1 if TotalBsmtSF > 0 else 0
+- HasFireplace:  1 if Fireplaces > 0 else 0
 
 
