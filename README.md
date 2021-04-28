@@ -1,10 +1,8 @@
-# Case study of the Titanic survival
+# Case study in order to predict sales prices 
 
 # Objective
 
-Ask a home buyer to describe their dream house, and they probably won't begin with the height of the basement ceiling or the proximity to an east-west railroad. But this playground competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence.With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges you to predict the final price of each home.
-
-This project belongs to [kaggle's competitions](https://www.kaggle.com/c/house-prices-advanced-regression-techniques). The objective is to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc). 
+This project belongs to [kaggle's competitions](https://www.kaggle.com/c/house-prices-advanced-regression-techniques). In order to buy a house there are many different parameters that influences price negotiations. Therefore, the idea is to create a model that predicts the sales prices given a dataset with 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa. 
 
 # Code and Resources Used
 
@@ -13,7 +11,7 @@ This project belongs to [kaggle's competitions](https://www.kaggle.com/c/house-p
 
 # Data description
 
-For each passenger(i.e. each Passenger Id) the following information is given:
+For each house the following information is given:
 
 - **SalePrice:**  the property's sale price in dollars. This is the target variable that you're trying to predict.
 - **MSSubClass:** The building class.
