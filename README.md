@@ -135,3 +135,14 @@ For each house the following information is given:
 - SalePrice has  1459  missing values 
  
 If we compare the total number of the whole data frame with the amount of null values, we can see that there are four parameters with most of the values missing. This are Alley, PoolQC, Fence and MiscFeature. These parameters have more that 2000 missing values, which is a huge amount of data missing, normally it is good to erase these data, but let's see first is there is any reason why there is this huge amount.
+
+- Alley: The parameter alley only tell us the type of alley access, thus NA only means that the house does not have alley, so we will replace the missing values in this by No Alley.
+- PoolQC: The parameter PoolQC is the pool quality. The missing values at PoolQC means that there is not a Pool. We corrroborate this by checking the parameter PoolArea which tell us the Pool area in square feet, if this is zero, means that there is not a pool. Thus we found that the number of houses that does not have a Pool matches with the number of missing values in PoolQc (2909).
+- Fence: Fence means Fence quality, so here as well the null values means that this house does not have a fence, so we will change the missing values by No Fence.
+- Misc Feature: This parameter MiscFeature means Miscellaneous feature not covered in other categories, here the missing values means that these houses did not have any other special feature. So the missing values were replaced by No SpFeature. 
+
+Other feature that has 
+
+-  FireplaceQu: We know that the parameter FireplaceQu means the Fireplace quality, therefore NaN is this case can mean that there is not a Fireplace, we can corroborate if this is true by checking the paramete Fireplaces, which indicates the number of fireplaces, if the number of houses that does not have fireplaces correspond to the number of missing values in FireplaceQu (1420)
+
+
