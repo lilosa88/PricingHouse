@@ -181,13 +181,16 @@ For the rest of the features with missing values, as these features has maximum 
 
 ### Numerical variables
 
-- Year features: We convert all the years in year features to number of years.
+We convert all the years in the year features columns (YearBuilt, YearRemodAdd, GarageYrBlt and YrSold) to number of years.
+
+We create two new columns:
+
 - soandre: New column that gives the amount of years that was remove the add and the year that actially was sold.
 - timenosold: New column that gives the amount of years that pass away between when the house was built and sold
 
- Drop columns: BsmtHalfBath, BsmtFullBath, MoSold and LandSlope
+ We drop the following columns: BsmtHalfBath, BsmtFullBath, MoSold and LandSlope
  
- We fix the skewness of some features
+ We fix the skewness of some features.
 
 ### Numerical variables
 
