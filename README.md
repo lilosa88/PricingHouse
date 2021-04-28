@@ -141,10 +141,13 @@ If we compare the total number of the whole data frame with the amount of null v
 - Fence: Fence means Fence quality, so here as well the null values means that this house does not have a fence, so we will change the missing values by No Fence.
 - Misc Feature: This parameter MiscFeature means Miscellaneous feature not covered in other categories, here the missing values means that these houses did not have any other special feature. So the missing values were replaced by No SpFeature. 
 
-Other feature that has huge amount of missing values is FireplaceQu
+Other feature that has huge amount of missing values is FireplaceQu and LotFrontage
 
 - FireplaceQu: The parameter FireplaceQu indicates the Fireplace quality, therefore NaN is this case means that there is not a Fireplace. In order to corroborate it, we checked the paramete Fireplaces, which indicates the number of fireplaces. We found that the number of houses that does not have fireplaces correspond to the number of missing values in FireplaceQu (1420). Therefore we replace the missing values in this feature with No Fireplaces. 
 
+- LotFrontage: We will fill the missing values with the median.
 
+Next parameters that has missing values are the ones related to the Garage, i.e. GarageType, GarageYrBlt, GarageFinish, GarageQual, GarageCond. We found that there is a relation between the number of missing values for GarageType and the Garage Area. The latest give us the size of garage in square feet. The number of values that correspond to zero square feet are eauql to the missing values in GarageType. 
 
-
+- GarageType, GarageFinish, GarageQual and GarageCond: We change the missing values for No Garage.
+- GarageYrBlt: We change the missing value with 0 because never was built a garage.
