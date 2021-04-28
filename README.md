@@ -141,8 +141,10 @@ If we compare the total number of the whole data frame with the amount of null v
 - Fence: Fence means Fence quality, so here as well the null values means that this house does not have a fence, so we will change the missing values by No Fence.
 - Misc Feature: This parameter MiscFeature means Miscellaneous feature not covered in other categories, here the missing values means that these houses did not have any other special feature. So the missing values were replaced by No SpFeature. 
 
-Other feature that has 
+Other feature that has huge amount of missing values is FireplaceQu
 
--  FireplaceQu: We know that the parameter FireplaceQu means the Fireplace quality, therefore NaN is this case can mean that there is not a Fireplace, we can corroborate if this is true by checking the paramete Fireplaces, which indicates the number of fireplaces, if the number of houses that does not have fireplaces correspond to the number of missing values in FireplaceQu (1420)
+- FireplaceQu: The parameter FireplaceQu indicates the Fireplace quality, therefore NaN is this case means that there is not a Fireplace. In order to corroborate it, we checked the paramete Fireplaces, which indicates the number of fireplaces. We found that the number of houses that does not have fireplaces correspond to the number of missing values in FireplaceQu (1420). Therefore we replace the missing values in this feature with No Fireplaces. 
+
+
 
 
