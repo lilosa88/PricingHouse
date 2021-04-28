@@ -183,5 +183,5 @@ For the rest of the features with missing values, as these features has maximum 
 
 - Year features: We convert all the years in year features to number of years.
 - soandre: New column that gives the amount of years that was remove the add and the year that actially was sold.
-
+- timenosold: New column that gives the amount of years that pass away between when the house was built and sold
 
