@@ -188,10 +188,10 @@ We create two new columns:
 - soandre: New column that gives the amount of years that was remove the add and the year that actially was sold.
 - timenosold: New column that gives the amount of years that pass away between when the house was built and sold
 
- We drop the following columns: BsmtHalfBath, BsmtFullBath, MoSold and LandSlope
+We drop the following columns: LotArea, BsmtFinSF2, BsmtUnfSF, LowQualFinSF, EnclosedPorch, MiscVal, 3SsnPorch, ScreenPorch, Total_porch_sf, BsmtHalfBath, BsmtFullBath, MoSold, LandSlope, YearRemodAdd YearBuilt and YrSold. Some of this columns were remove because they were redundant information and some others because the correlation with SalesPrice was to low. 
  
- We fix the skewness of some features.
+We fix the skewness of some features.
 
 ### Numerical variables
 
-Drop columns: LotArea, BsmtFinSF2, BsmtUnfSF, LowQualFinSF, EnclosedPorch, MiscVal, 3SsnPorch, ScreenPorch, Total_porch_sf
+Drop columns: LandSlope
