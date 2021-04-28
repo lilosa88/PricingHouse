@@ -192,6 +192,19 @@ We drop the following columns: LotArea, BsmtFinSF2, BsmtUnfSF, LowQualFinSF, Enc
  
 We fix the skewness of some features.
 
-### Numerical variables
+### Categorical variables
 
-Drop columns: LandSlope
+We drop the column LandSlope, becuase did not infuence the column Sale Price.
+We convert the string variables into continuos variables using dummy 
+
+### The variables were normalized using MinMaxScaler
+
+### Spliting the dataset into the intial train and test dataset
+
+### Defining X and y 
+
+### Spliting into train/test 
+
+# Machine Learning model
+
+
