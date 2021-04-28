@@ -186,6 +186,8 @@ For the rest of the features with missing values, as these features has maximum 
 - timenosold: New column that gives the amount of years that pass away between when the house was built and sold
 
  Drop columns: BsmtHalfBath, BsmtFullBath, MoSold and LandSlope
+ 
+ We fix the skewness of some features
 
 ### Numerical variables
 
