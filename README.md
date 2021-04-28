@@ -207,24 +207,35 @@ We convert the string variables into continuos variables using dummy
 
 # Machine Learning model
 
+The hyperparameter 'alpha' has the following values: 0.0001, 0.001, 0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 20, 50, 100, 500, 1000.
+
 - Ridge Regression
 
-The hyperparameter for 'alpha' were the following: 0.0001, 0.001, 0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 20, 50, 100, 500, 1000.
-
   <p align="center">
-   <img src="https://github.com/lilosa88/PricingHouse/blob/main/Images/Captura%20de%20Pantalla%202021-04-28%20a%20la(s)%2020.45.04.png" width="460" height="280">
+   <img src="https://github.com/lilosa88/PricingHouse/blob/main/Images/Captura%20de%20Pantalla%202021-04-28%20a%20la(s)%2020.45.04.png" width="560" height="300">
   </p>
   
+ The best alpha was 10
+  
+ The train Ridge Regression Accuracy: 0.9073
+
+ The test Ridge Regression Accuracy: 0.8752
   
  - Lasso
 
   <p align="center">
-   <img src="https://github.com/lilosa88/PricingHouse/blob/main/Images/Captura%20de%20Pantalla%202021-04-28%20a%20la(s)%2020.49.07.png" width="460" height="280">
+   <img src="https://github.com/lilosa88/PricingHouse/blob/main/Images/Captura%20de%20Pantalla%202021-04-28%20a%20la(s)%2020.49.07.png" width="560" height="300">
   </p>
   
   <p align="center">
-   <img src="https://github.com/lilosa88/PricingHouse/blob/main/Images/Captura%20de%20Pantalla%202021-04-28%20a%20la(s)%2020.45.04.png" width="460" height="280">
+   <img src="https://github.com/lilosa88/PricingHouse/blob/main/Images/Captura%20de%20Pantalla%202021-04-28%20a%20la(s)%2020.49.39.png" width="560" height="300">
   </p>
 
+The best alpha was 100
 
+The train Lasso Accuracy: 0.9229
+
+The test Lasso Accuracy: 0.8902
+
+Conclusion: The Lasso method was choseen. 
 
