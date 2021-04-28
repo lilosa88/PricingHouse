@@ -155,3 +155,12 @@ Next parameters that has missing values are the ones related to the Garage, i.e.
 The following missing values are found in the parameters that are relate to the bassement. Again we can check if these missing values are not related to the lack of bassement in the house.
 
 - BsmtQual, BsmtCond, BsmtExposure, BsmtFinType1, BsmtFinType2: Althougth we only have 78 houses without basement, if we change the NaN values by No Basement in all the Basement parameters that has missing values, we will only have maximum 4 houses that could be missplaced which will not affect much the model.
+
+The other missing values correspond to the feature MasVnrType and MasVnrArea. For this features Seems there is a lot of outliers, therefore instead of filling the missing values with the media it is better to take them as the people who provide the information ommits to fill these because they were not masonry veneer.
+
+- MasVnrArea: the missing values were replace with 0.
+- MasVnrType: The missing values were replaced with None.
+
+
+
+
