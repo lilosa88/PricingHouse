@@ -133,5 +133,5 @@ For each house the following information is given:
 - MiscFeature has  2814  missing values 
 - SaleType has  1  missing values 
 - SalePrice has  1459  missing values 
-
-If we compare the total number of rows in the data frame (2919) with the null values, we can see that there are four parameters which most of the values are missing, this are Alley, PoolQC, Fence and MiscFeature. These parameters have more that 2000 missing values, which is a huge amount of data missing, normally it is good to erase these data, but let's see first is there is any reason why there is this huge amount. So let's check first how is the relation between these and the parameter that we are interested in, i.e., Sale Price
+ 
+If we compare the total number of the whole data frame with the amount of null values, we can see that there are four parameters with most of the values missing. This are Alley, PoolQC, Fence and MiscFeature. These parameters have more that 2000 missing values, which is a huge amount of data missing, normally it is good to erase these data, but let's see first is there is any reason why there is this huge amount.
