@@ -161,7 +161,7 @@ The other missing values correspond to the feature MasVnrType and MasVnrArea. Fo
 - MasVnrArea: the missing values were replace with 0.
 - MasVnrType: The missing values were replaced with None.
 
-For the rest of the features with missing values, as these features has maximum 4 missing values out of 2919 we will fill the data with the corresponding media value in each case for the cases where the feature is float64. For the categorical variables we fill it with the mode.  
+For the rest of the features with missing values, as these features has maximum 4 missing values out of 2919 we will fill the data with the corresponding media value for the cases where the feature is float64. For the categorical variables we fill it with the mode.  
 
 # Feature engineering
 
